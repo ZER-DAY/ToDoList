@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <script src="main.js"></script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div style="direction: rtl;" > 
+    <!-- center div  -->
+    <div style="display: flex; justify-content: center;align-items: center;">
+      
+      
+      <!--div tasks tabel  -->
+        <div class="tasks-tabel">
+          <!-- hader -->
+          <div style="width: 100%; text-align: center; background-color: rgb(92, 52,155); color: white; padding-top:  8px ; padding-bottom: 8px;">
+            <h1 style="display: inline;">مهامي</h1>
+            <button   id="add-button" class="circular" style="float: right; background: white ;margin-right: 10px;">
+              <span class="material-symbols-outlined">
+                add
+                </span>
+            </button>
+          </div>
+          <!-- //hader// -->
+           <!-- tasks -->
+            <div id="tasks" style="padding: 20px;">
+              <!-- task -->
+               <div class="task">
+                  <!-- task info -->
+                              <div style="width:70% ; " >
+                                  <h2>قراء كتاب</h2>
+                                  <div>
+                                    <span class="material-symbols-outlined">
+                                      calendar_month
+                                      </span>
+                                  </div>
+                              </div>
+                              
+                     <!-- //task info // -->
+                      
+                     <!-- task action -->
+                            <div style="display: flex; justify-content: space-between ;align-items: center; width: 20%; ">
+                                <button  class="circular" style="background-color: red;color: white;">
+                                  <span class="material-symbols-outlined">
+                                    delete
+                                    </span>
+                                </button>
+                                <button class="circular" style="background-color: rgb(0, 255, 38);color: white">
+                                  <span  class="material-symbols-outlined">
+                                    check_circle
+                                    </span>
+                                </button>
+                                <button class="circular" style="background-color: rgb(0, 128, 233);color: white">
+                                  <span class="material-symbols-outlined">
+                                     edit
+                                    </span>
+                                </button>
+                            </div>
+                   <!-- //task action // -->
+               </div>
+               <!-- //task //-->
+            </div>
+            <!-- //tasks// -->
+        </div>
+        <!-- // div tasks tabel // -->
+    </div>
+    <!--// center div // -->
+</div>
+<script src="main.js"></script>
+</body>
+</html>
